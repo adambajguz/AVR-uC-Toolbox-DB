@@ -7,7 +7,6 @@
             "SRAM": "64B",
             "EEPROM": "64B",
             "pin_count": "8",
-            "on_chip_multiplier": "+",
             "peripheral_features": {
                 "timers": "1x 8-bit",
                 "adc": "10-bit 4 channel",
