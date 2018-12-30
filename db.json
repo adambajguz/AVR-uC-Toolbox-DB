@@ -1,41 +1,143 @@
 {
     "microcontrollers": [{
-            "id": "c200",
-            "name": "Pratik Butani",
-            "email": "pratik13butani@gmail.com",
-            "address": "xx-xx-xxxx,x - street, x - country",
-            "gender": "male",
-            "profile_pic": "http://lorempixel.com/100/100/",
-            "phone": {
-                "mobile": "+91 0000000000",
-                "home": "00 000000",
-                "office": "00 000000"
+            "id": "0",
+            "name": "ATtiny13A (PDIP)",
+            "program_memory": "1KB",
+            "max_clock": "20MHz",
+            "SRAM": "64B",
+            "EEPROM": "64B",
+            "pin_count": "8",
+            "on_chip_multiplier": "+",
+            "peripheral_features": {
+                "timers": "1x 8-bit",
+                "adc": "10-bit 4 channel",
+                "pwm_channels": "2",
+                "int_pins": "2",
+                "pcint_interrupts": "+",
+                "usi": "-",
+                "spi": "-",
+                "usart": "-",
+                "i2c": "-"
             }
         },
         {
-            "id": "c201",
-            "name": "Johnny Depp",
-            "email": "johnny_depp@gmail.com",
-            "address": "xx-xx-xxxx,x - street, x - country",
-            "gender": "male",
-            "profile_pic": "http://lorempixel.com/105/105/",
-            "phone": {
-                "mobile": "+91 0000000000",
-                "home": "00 000000",
-                "office": "00 000000"
+            "id": "1",
+            "name": "ATtiny2313A (PDIP)",
+            "program_memory": "2KB",
+            "max_clock": "20MHz",
+            "SRAM": "128B",
+            "EEPROM": "128B",
+            "pin_count": "20",
+            "peripheral_features": {
+                "timers": "1x 8-bit; 1x 16-bit",
+                "adc": "-",
+                "pwm_channels": "4",
+                "int_pins": "2",
+                "pcint_interrupts": "+",
+                "usi": "1x",
+                "spi": "-",
+                "usart": "1x",
+                "i2c": "-"
             }
         },
         {
-            "id": "c202",
-            "name": "Leonardo Dicaprio",
-            "email": "leonardo_dicaprio@gmail.com",
-            "address": "xx-xx-xxxx,x - street, x - country",
-            "gender": "male",
-            "profile_pic": "http://lorempixel.com/110/110/",
-            "phone": {
-                "mobile": "+91 0000000000",
-                "home": "00 000000",
-                "office": "00 000000"
+            "id": "2",
+            "name": "ATmega8 (PDIP)",
+            "program_memory": "8KB",
+            "max_clock": "16MHz",
+            "SRAM": "1KB",
+            "EEPROM": "512B",
+            "pin_count": "28",
+            "peripheral_features": {
+                "timers": "2x 8-bit; 1x 16-bit",
+                "adc": "10-bit 6 channel",
+                "pwm_channels": "6",
+                "int_pins": "2",
+                "pcint_interrupts": "-",
+                "usi": "-",
+                "spi": "+",
+                "usart": "1x",
+                "i2c": "+"
+            }
+        },
+        {
+            "id": "3",
+            "name": "ATmega32P (PDIP)",
+            "program_memory": "32KB",
+            "max_clock": "16MHz",
+            "SRAM": "2KB",
+            "EEPROM": "1KB",
+            "pin_count": "40",
+            "peripheral_features": {
+                "timers": "2x 8-bit; 1x 16-bit",
+                "adc": "10-bit 8 channel",
+                "pwm_channels": "4",
+                "int_pins": "3",
+                "pcint_interrupts": "-",
+                "usi": "-",
+                "spi": "+",
+                "usart": "1x",
+                "i2c": "+"
+            }
+        },
+        {
+            "id": "4",
+            "name": "ATmega328P (PDIP)",
+            "program_memory": "32KB",
+            "max_clock": "20MHz",
+            "SRAM": "2KB",
+            "EEPROM": "1KB",
+            "pin_count": "28",
+            "peripheral_features": {
+                "timers": "2x 8-bit; 1x 16-bit",
+                "adc": "10-bit 6 channel",
+                "pwm_channels": "6",
+                "int_pins": "2",
+                "pcint_interrupts": "+",
+                "usi": "-",
+                "spi": "+",
+                "usart": "1x",
+                "i2c": "+"
+            }
+        },
+        {
+            "id": "5",
+            "name": "ATmega644PA (PDIP)",
+            "program_memory": "64KB",
+            "max_clock": "20MHz",
+            "SRAM": "4KB",
+            "EEPROM": "2KB",
+            "pin_count": "40",
+            "peripheral_features": {
+                "timers": "2x 8-bit; 1x 16-bit",
+                "adc": "10-bit 8 channel",
+                "pwm_channels": "6",
+                "int_pins": "3",
+                "pcint_interrupts": "+",
+                "usi": "-",
+                "spi": "+",
+                "usart": "2x",
+                "i2c": "+"
+            }
+        },
+        {
+            "id": "6",
+            "name": "ATmega2560 (TQFP)",
+            "program_memory": "256KB",
+            "max_clock": "16MHz",
+            "SRAM": "8KB",
+            "EEPROM": "4KB",
+            "pin_count": "64",
+            "peripheral_features": {
+                "timers": "2x 8-bit; 4x 16-bit",
+                "adc": "10-bit 16 channel",
+                "pwm_channels": "14",
+                "int_pins": "8",
+                "pcint_interrupts": "+",
+                "usi": "-",
+                "spi": "+",
+                "usart": "4x",
+                "i2c": "+"
             }
         }
     ]
