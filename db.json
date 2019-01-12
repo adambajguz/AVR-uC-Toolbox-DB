@@ -21,6 +21,26 @@
         },
         {
             "id": "1",
+            "name": "ATtiny48A (PDIP)",
+            "program_memory": "4KB",
+            "max_clock": "12MHz",
+            "SRAM": "246B",
+            "EEPROM": "64B",
+            "pin_count": "28",
+            "peripheral_features": {
+                "timers": "1x 8-bit; 1x 16-bit",
+                "adc": "10-bit 6 channel",
+                "pwm_channels": "2",
+                "int_pins": "2",
+                "pcint_interrupts": "+",
+                "usi": "-",
+                "spi": "+",
+                "usart": "-",
+                "i2c": "+"
+            }
+        },
+        {
+            "id": "2",
             "name": "ATtiny2313A (PDIP)",
             "program_memory": "2KB",
             "max_clock": "20MHz",
@@ -40,7 +60,7 @@
             }
         },
         {
-            "id": "2",
+            "id": "3",
             "name": "ATmega8 (PDIP)",
             "program_memory": "8KB",
             "max_clock": "16MHz",
@@ -60,7 +80,47 @@
             }
         },
         {
-            "id": "3",
+            "id": "4",
+            "name": "ATmega8 (TQFP, QFN/MLF)",
+            "program_memory": "8KB",
+            "max_clock": "16MHz",
+            "SRAM": "1KB",
+            "EEPROM": "512B",
+            "pin_count": "32",
+            "peripheral_features": {
+                "timers": "2x 8-bit; 1x 16-bit",
+                "adc": "10-bit 8 channel",
+                "pwm_channels": "6",
+                "int_pins": "2",
+                "pcint_interrupts": "-",
+                "usi": "-",
+                "spi": "+",
+                "usart": "1x",
+                "i2c": "+"
+            }
+        },
+        {
+            "id": "5",
+            "name": "ATmega16P (PDIP)",
+            "program_memory": "16KB",
+            "max_clock": "16MHz",
+            "SRAM": "1KB",
+            "EEPROM": "512B",
+            "pin_count": "40",
+            "peripheral_features": {
+                "timers": "2x 8-bit; 1x 16-bit",
+                "adc": "10-bit 8 channel",
+                "pwm_channels": "4",
+                "int_pins": "3",
+                "pcint_interrupts": "-",
+                "usi": "-",
+                "spi": "+",
+                "usart": "1x",
+                "i2c": "+"
+            }
+        },
+        {
+            "id": "6",
             "name": "ATmega32P (PDIP)",
             "program_memory": "32KB",
             "max_clock": "16MHz",
@@ -80,7 +140,7 @@
             }
         },
         {
-            "id": "4",
+            "id": "7",
             "name": "ATmega328P (PDIP)",
             "program_memory": "32KB",
             "max_clock": "20MHz",
@@ -100,7 +160,27 @@
             }
         },
         {
-            "id": "5",
+            "id": "8",
+            "name": "ATmega328P (TQFP, QFN/MLF)",
+            "program_memory": "32KB",
+            "max_clock": "20MHz",
+            "SRAM": "2KB",
+            "EEPROM": "1KB",
+            "pin_count": "28 / 32",
+            "peripheral_features": {
+                "timers": "2x 8-bit; 1x 16-bit",
+                "adc": "10-bit 8 channel",
+                "pwm_channels": "6",
+                "int_pins": "2",
+                "pcint_interrupts": "+",
+                "usi": "-",
+                "spi": "+",
+                "usart": "1x",
+                "i2c": "+"
+            }
+        },
+        {
+            "id": "9",
             "name": "ATmega644PA (PDIP)",
             "program_memory": "64KB",
             "max_clock": "20MHz",
@@ -120,7 +200,27 @@
             }
         },
         {
-            "id": "6",
+            "id": "10",
+            "name": "ATmega1284 (PDIP)",
+            "program_memory": "128KB",
+            "max_clock": "20MHz",
+            "SRAM": "16KB",
+            "EEPROM": "4KB",
+            "pin_count": "40",
+            "peripheral_features": {
+                "timers": "2x 8-bit; 2x 16-bit",
+                "adc": "10-bit 8 channel",
+                "pwm_channels": "8",
+                "int_pins": "3",
+                "pcint_interrupts": "+",
+                "usi": "-",
+                "spi": "+",
+                "usart": "2x",
+                "i2c": "+"
+            }
+        },
+        {
+            "id": "11",
             "name": "ATmega2560 (TQFP)",
             "program_memory": "256KB",
             "max_clock": "16MHz",
@@ -136,6 +236,26 @@
                 "usi": "-",
                 "spi": "+",
                 "usart": "4x",
+                "i2c": "+"
+            }
+        },
+        {
+            "id": "12",
+            "name": "ATmega8535 (PDIP)",
+            "program_memory": "8KB",
+            "max_clock": "16MHz",
+            "SRAM": "512B",
+            "EEPROM": "512B",
+            "pin_count": "40",
+            "peripheral_features": {
+                "timers": "2x 8-bit; 1x 16-bit",
+                "adc": "10-bit 8 channel",
+                "pwm_channels": "4",
+                "int_pins": "2",
+                "pcint_interrupts": "-",
+                "usi": "-",
+                "spi": "+",
+                "usart": "1x",
                 "i2c": "+"
             }
         }
